@@ -1,0 +1,62 @@
+body
+{
+  margin: auto 0;
+  background:chartreuse;
+}
+h1
+{
+  background:Black;
+  margin-top: 0;
+  color: white;
+}
+.container
+{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: monospace;
+}
+li 
+{
+  list-style: upper-roman;
+  cursor: pointer;
+  background:grey;
+  color:black;
+  border-bottom: 1px solid black;
+  margin-bottom: 2px;
+}
+
+button
+{
+  background:transparent;
+  border: none;
+  margin-left: 30px;
+  cursor: pointer;
+  color:red;
+}
+button:hover
+{
+  color:white;
+}
+#enter
+{
+  background: blue;
+  color: white;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.box
+{
+  background:white;
+  width: fit-content;
+  margin-left: 300px;
+  border:1px solid black;
+}
+.done
+{
+  text-decoration: line-through;
+}
